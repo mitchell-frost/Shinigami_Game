@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+#header{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+#header h1{
+    color: blueviolet;
+}
+
+.container{
+    text-align: center;
+    color: blueviolet;
+}
+
+

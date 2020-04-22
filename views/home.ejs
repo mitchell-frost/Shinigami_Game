@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>
+        <title>shinigami</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/stylesheets/main.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <h1>SHINIGAMI FELL FROM HEAVEN!!!</h1>
+                <h1><%= enisya.name %> intends to take <%= enisya.heaven_height %> people</h1>
+                <form action="/decrease" method="POST">
+                    <div>
+                        <h3>Choose to save:</h3>
+                    </div>
+                    <div>
+                        <input type="number" name="heaven_height" placeholder="no of people">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="submit" class="btn btn-lg btn-success">
+                    </div>                                     
+                </form>
+            </div>         
+        </div>
+    </body>
+</html>
